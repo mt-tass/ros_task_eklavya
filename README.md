@@ -1,6 +1,5 @@
 # ROS Manipulator Simulation & Control Task
 
-
 ## Overview
 
 In this assignment, you are provided with the following resources for a 3-DOF robotic manipulator:
@@ -70,6 +69,19 @@ Your task is to **complete the ROS 2 package** so that:
 - [ ] Copy the final end-effector position in a file which we get as a result of running the fk_task.py node.
 
 ---
+## Installation
+
+To get started, clone this repository into a ROS 2 workspace and build it as follows:
+
+```bash
+mkdir -p eklavya_ws/src
+cd eklavya_ws/src
+git clone https://github.com/NoobMaster-version/ros_task_eklavya
+cd ..
+colcon build
+```
+
+---
 
 ## Getting Started
 
@@ -100,8 +112,4 @@ chmod +x dependencies_installation.sh
 
 ---
 
-**HINT**
-- Dont use GPT :)
----
-
-## Good luck!
+## Dont use GPT , Good luck! :)
