@@ -25,7 +25,7 @@ find_package(ros_ign_gazebo REQUIRED)
 
 
 install(PROGRAMS
-  src/fk_final.py
+  src/fk_task.py
   DESTINATION lib/${PROJECT_NAME}
 )
 install(
