@@ -54,7 +54,7 @@ a = [0, 7, 0, 0]
 theta = []
 gripper = []
 #reading theta from angles.txt
-with open("/home/devm/ros2task5_ws/src/ros_task_eklavya/ros_task/angles.txt",'r') as file:
+with open("/ros_task_eklavya/ros_task/angles.txt",'r') as file:
     for line in file:
         part = line.split(',')
         thetas = [float(p) for p in part[:-1]] + [0]
